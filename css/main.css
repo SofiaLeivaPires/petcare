@@ -25,6 +25,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 100;
         
 }
 
@@ -98,5 +99,15 @@ h1, h2 {
     padding: 0px 20px;
     margin-bottom: 40px;
     line-height: 180%;
+
+}
+
+#farmacia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    padding: 80px 80px 50px 80px;
 
 }
