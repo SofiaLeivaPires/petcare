@@ -13,7 +13,7 @@ body {
 
 /* Cabeçalho - Menu */
 .menu {
-    background-color: #FF9A6C;
+    background-color: #7988d9;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -36,12 +36,16 @@ body {
     text-decoration: none;
 }
 
+.menu img {
+    max-width: 60px;
+}
+
 /* Config - Seção INÍCIO */
 #inicio {
     display: flex;
     align-items: center;
     gap: 32px;
-    padding: 80px 80px 24px 80px;
+    padding: 120px 80px 24px 80px;
     position: relative;
 }
 
@@ -58,7 +62,7 @@ h1, h2 {
 }
 
 .botao {
-    background-color: #ff9a6c;
+    background-color: #7988d9;
     border-radius: 8px;
     color: #fff;
     padding: 16px 23px;
@@ -67,7 +71,7 @@ h1, h2 {
 
 .botao-transparente {
     background-color: transparent;
-    color: #FF725E;
+    color: #7988d9;
     padding: 16px 32px;
     text-underline-offset: 5px;
 
@@ -115,7 +119,7 @@ h1, h2 {
 
 #duvida {
     display: flex;
-    align-items: center;
+    text-align: center;
     gap: 64px;
     padding: 80px 80px;
 }
@@ -125,7 +129,7 @@ h1, h2 {
 }
 
 .duvida h3 {
-    border: 2px solid #FF725E;
+    border: 2px solid #7988d9;
     border-radius: 8px;
     cursor: pointer;
     padding: 24px;
@@ -136,12 +140,14 @@ h1, h2 {
     position: absolute;
     top: 32px;
     right: 24px;
+    width: 17px;
+    height: 10px;
 }
 
 .duvida .paragrafo {
-    border-right: 1px solid #FF725E;
-    border-bottom: 1px solid #FF725E;
-    border-left: 1px solid #FF725E;
+    border-right: 1px solid #7988d9;
+    border-bottom: 1px solid #7988d9;
+    border-left: 1px solid #7988d9;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
     padding: 10px 24px;
@@ -159,7 +165,7 @@ h1, h2 {
 }
 
 footer {
-    background-color: rgba(245, 145, 102, 0.25);
+    background-color:#a6b1f0;
     display: flex;
     justify-content: space-between;
     gap: 80px;
@@ -173,33 +179,49 @@ footer .titulo {
     margin-bottom: 24px;
 }
 
+footer .titulo {
+    color: #364077;
+    
+}
+
 footer nav a {
-    color: #222b31;
+    color: #FFFFFF;
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
-
+    font-weight: 600;
+    text-shadow: 1px 5px 10px #364077;
 }
 
 footer p {
     margin-bottom: 16px;
     max-width: 350px;
+    color:#FFFFFF;
+    font-weight: 600;
+
+
 }
 
 footer p a {
-    color: #FE503A;
+    color:#364077;
     text-decoration: none;
 }
 
+
+.footer img {
+    max-width: 200px;
+}
+
+
 #copyright {
-    background-color: #27353d;
+    background-color: #12181b;
     color: #FFFFFF;
     padding: 24px;
     text-align: center;
 }
 
 #copyright a {
-    color: #FF9A6C;
+    color: #7988d9;
     text-decoration: none;
     padding: 3px;
 }
